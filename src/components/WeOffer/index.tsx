@@ -13,9 +13,10 @@ function WeOffer() {
       </p>
 
       <div className={style.gridOffer}>
-        {data.map((item) => {
+        {data.map((item, index) => {
           return (
             <CardOffer
+              key={item.title + index}
               title={item.title}
               src={item.src}
               text={item.text}
