@@ -1,15 +1,14 @@
 .sectionOffer {
-  width: 80%;
+  width: 90%;
   max-width: 1200px;
   margin: auto;
-  display: flex;
-  flex-direction: column;
-  padding: 75px 70px;
+
+  padding: 60px 0;
 }
 
 .gridOffer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   row-gap: 32px;
   column-gap: 40px;
 }
